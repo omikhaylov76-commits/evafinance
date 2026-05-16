@@ -38,8 +38,8 @@ export default function Header() {
           <motion.div style={{ width: 42, height: 42, borderRadius: '50%', background: 'rgba(255,255,255,.15)', backdropFilter: 'blur(12px)', border: '1.5px solid rgba(255,255,255,.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 23, flexShrink: 0, boxShadow: '0 4px 20px rgba(0,0,0,.28)' }}
             animate={{ rotate: [0, 10, -10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>🎀</motion.div>
           <div style={{ minWidth: 0, overflow: 'hidden' }}>
-            <div style={{ fontFamily: "'Unbounded', sans-serif", fontWeight: 900, fontSize: 'clamp(20px, 5vw, 32px)', lineHeight: 1, color: '#fff', letterSpacing: '-0.5px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>ЕВА</div>
-            <div style={{ fontFamily: "'Comfortaa', sans-serif", fontWeight: 600, fontSize: 'clamp(11px, 2.5vw, 15px)', color: 'rgba(255,255,255,.65)', letterSpacing: '0.15em', textTransform: 'uppercase', marginTop: 1, whiteSpace: 'nowrap' }}>finance</div>
+            <div style={{ fontFamily: "'Unbounded', sans-serif", fontWeight: 900, fontSize: 'clamp(20px, 5vw, 32px)', lineHeight: 1, color: '#fff', letterSpacing: '-0.5px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>EVA</div>
+            <div style={{ fontFamily: "'Comfortaa', sans-serif", fontWeight: 600, fontSize: 'clamp(11px, 2.5vw, 15px)', color: 'rgba(255,255,255,.65)', letterSpacing: '0.15em', textTransform: 'uppercase', marginTop: 1, whiteSpace: 'nowrap' }}>Finance</div>
           </div>
         </div>
         <div style={{ background: 'rgba(255,255,255,.12)', backdropFilter: 'blur(16px)', border: '1px solid rgba(255,255,255,.18)', color: 'rgba(255,255,255,.9)', fontSize: 'clamp(10px, 2vw, 13px)', fontWeight: 700, padding: '7px 12px', borderRadius: 20, whiteSpace: 'nowrap', flexShrink: 0 }}>{dateStr}</div>
