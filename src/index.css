@@ -1,0 +1,55 @@
+:root {
+  --rose:   #ff3d8b;
+  --rose2:  #ff6aab;
+  --rose3:  #ffadd0;
+  --rose4:  #ffd6ea;
+  --rose5:  #fff0f7;
+  --deep:   #3b0a28;
+  --ink:    #1e0516;
+  --purple: #b44bff;
+  --green:  #00c97a;
+  --red:    #ff4565;
+  --gold:   #ffd60a;
+  --bg:     #fdf5fa;
+  --card:   #ffffff;
+  --t0: #1e0516;
+  --t1: #7a2c5a;
+  --t2: #c490ac;
+  --r-xl: 28px;
+  --r-lg: 22px;
+  --r-md: 16px;
+  --r-sm: 12px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--bg);
+  color: var(--t0);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Display font for titles and big numbers */
+.font-display {
+  font-family: 'Unbounded', 'Plus Jakarta Sans', sans-serif;
+}
+.font-round {
+  font-family: 'Comfortaa', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--rose3); border-radius: 2px; }
+
+/* utility */
+.no-select { user-select: none; -webkit-user-select: none; }
